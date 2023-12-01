@@ -30,5 +30,46 @@ header{
 
 
     list-style: none;
+    align-items: center;
 
+}
+
+.button{
+    background-color: white;
+    color: black;
+    padding: 5px 20px;
+    border-radius: 15px;
+}
+
+#header-container i{
+    display: none
+}
+
+/* MEDIA QUERIES TABLET */
+
+@media screen and (max-width: 768px){
+    header{
+        width: 100%;
+        padding-inline: 20px;
+    }
+
+    #header-container{
+        width: 100%;
+    }
+
+    #header-container ul{
+        display: none;
+    }
+
+    #header-container i{
+        display: inline;
+    }
+}
+
+/* MEDIA QUERIES MOBILE */
+
+@media screen and (max-width: 480px){
+    header{
+        font-size: 30px;
+    }
 }
