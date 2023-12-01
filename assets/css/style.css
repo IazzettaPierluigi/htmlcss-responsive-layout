@@ -263,6 +263,30 @@ header{
         text-align: center;
     }
     /* end section1 media queries */
+
+
+
+    /* section2 media queries */
+    #container-sect2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #left-sect2{
+        width: 100%;
+        font-size: 30px;
+    }
+
+    
+    #left-sect2 #text-left-sect2 h3{
+       font-size: 60px;
+    }
+
+    #right-sect2{
+        width: 100%;
+        font-size: 30px;
+    }
 }
 
 /* MEDIA QUERIES MOBILE */
