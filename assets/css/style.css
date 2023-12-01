@@ -66,6 +66,9 @@ header{
     background-color:#b5ddff ;
     border-radius: 20px;
     padding:30px ;
+
+    color: #0084fd;
+
 }
 
 #card-2box{
@@ -77,10 +80,17 @@ header{
 #card-2box-textcontainer{
     width: 50%;
     
+   
+
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     
+}
+
+.card p{
+    color: rgb(49, 42, 42);
+    font-weight: 700;
 }
 
 #card-2box img{
@@ -99,10 +109,12 @@ header{
     justify-content: space-around;
     margin-bottom: 20px;
     aspect-ratio: 1;
+    padding: 50px;
 }
 
 .box-1 i{
    font-size: 7rem;
+   color: #0084fd;
 }
 
 /* MEDIA QUERIES TABLET */
@@ -127,6 +139,34 @@ header{
         font-size: 30px;
     }
     /* end header media queries */
+
+    /* section1 media queries */
+    #sect-1 #container-sect1{
+        width: 100%;
+        padding: 20px;
+    }
+
+    #card-2box{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #card-2box-textcontainer{
+        width: 100%;
+        gap: 20px;
+    }
+
+    #card-2box img{
+        height: 80%;
+        width: 80%;
+        
+    }
+
+    .box-1{
+        gap: 30px;
+        text-align: center;
+    }
+    /* end section1 media queries */
 }
 
 /* MEDIA QUERIES MOBILE */
@@ -138,5 +178,21 @@ header{
     }
     /* end header media queries */
 
+    /* section1 media queries */
+    
+    #sect-1 #container-sect1{
+        width: 100%;
+        padding: 30px;
 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card,
+    #card-2box{
+        width: 100%;
+    }
+    /* end section1 media queries */
 }
+
