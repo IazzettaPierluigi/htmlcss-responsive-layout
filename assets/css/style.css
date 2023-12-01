@@ -85,7 +85,9 @@ header{
 
 #card-2box img{
     width: 50%;
-    height: 100%;
+    max-height: 100%;
+    position: relative;
+    bottom: -30px;
     
 }
 /* BOX PICCOLI */
@@ -100,7 +102,7 @@ header{
 }
 
 .box-1 i{
-   font-size: 100px;
+   font-size: 7rem;
 }
 
 /* MEDIA QUERIES TABLET */
