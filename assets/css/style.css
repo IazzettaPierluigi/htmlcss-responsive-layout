@@ -229,21 +229,15 @@ header{
     padding: 20px;
 }
 
-.testimonial-card-sect3 .img{
+.testimonial-card-sect3 img{
     width: 150px;
     height: 150px;
-    border: 1px solid black;
-    aspect-ratio: 1;
 
-    background-image: url(../img/testimonial1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    object-fit: cover;
 
-    border-radius: 50%;
-    
+    border-radius: 60%;
+
 }
-
 
 
 
