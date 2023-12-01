@@ -203,10 +203,38 @@ header{
 
 /* SECTION 2 END */
 
+/* SECTION 3 START */
 
+#container-sect3{
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+}
 
+#header-sect3{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
 
+#header-sect3 span{
+    text-transform: uppercase;
+}
 
+.testimonial-card-sect3{
+    background-color:#9792e4 ;
+    display: flex;
+    padding: 20px;
+}
+
+.testimonial-card-sect3 img{
+    width: 20%;
+    
+    border-radius: 60%;
+    
+}
 
 
 
@@ -239,7 +267,7 @@ header{
     /* section1 media queries */
     #sect-1 #container-sect1{
         width: 100%;
-        padding: 20px;
+        padding: 40px;
     }
 
     #card-2box{
@@ -271,11 +299,13 @@ header{
         width: 100%;
         display: flex;
         flex-direction: column;
+        padding: 40px;
     }
 
     #left-sect2{
         width: 100%;
         font-size: 30px;
+        padding: 0;
     }
 
     
