@@ -208,7 +208,13 @@ header{
 #container-sect3{
     width: 60%;
     margin: auto;
-    margin-top: 40px;
+    /* margin-top: 40px; */
+    padding-block: 50px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
 }
 
 #header-sect3{
@@ -227,6 +233,7 @@ header{
     background-color:#9792e4 ;
     display: flex;
     padding: 20px;
+    border-radius: 2em;
 }
 
 .testimonial-card-sect3 img{
@@ -239,6 +246,19 @@ header{
 
 }
 
+.card-text-sect3{
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    color: white;
+}
+
+.card-text-sect3 :last-child{
+    text-transform: uppercase;
+}
 
 
 
