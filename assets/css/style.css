@@ -66,6 +66,7 @@ header{
     background-color:#b5ddff ;
     border-radius: 20px;
     padding:30px ;
+    gap: 20px;
 
     color: #0084fd;
 
@@ -425,6 +426,71 @@ header{
 
 /* SECTION 5 END */
 
+/* SECTION 6 START */
+    #sect-6{
+        width: 100%;
+        background-color: #9792E4;
+        
+    }
+
+    #container-sect6{
+        width: 40%;
+        margin: auto;
+        text-align: center;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding-block: 40px;
+        padding-inline: 100px;
+    }
+
+    #sect-6 #container-sect6 #first-span{
+        font-size: 16px;
+        color: rgb(66, 65, 65);
+        text-transform: uppercase;
+    }
+
+    #sect-6 #container-sect6 h2{
+        font-size: 40px;
+        color: white;
+        text-transform: capitalize;
+    }
+
+    #sect-6 #container-sect6 h1{
+        font-size: 80px;
+        color: #fdc15f;
+        text-transform: capitalize;
+    }
+
+    #sect-6 #container-sect6 p{
+       color: white;
+    }
+
+    #sect-6 #container-sect6 #button-sect5{
+        color:#9792E4;
+        font-size: 20px;
+        background-color: white;
+        padding:8px 25px;
+        border-radius: 20px;
+        text-align: center;
+        text-transform: capitalize;
+     }
+
+     #sect-6 #container-sect6 ul{
+        list-style: none;
+        display: flex;
+        gap: 10px;
+        color: white;
+        text-transform: capitalize;
+     }
+
+     #sect-6 #container-sect6 ul li a{
+        color: white;
+     }
+/* SECTION 6 END */
+
 /* MEDIA QUERIES TABLET */
 
 @media screen and (max-width: 768px){
@@ -541,8 +607,8 @@ header{
         width: calc(100% / 2 - (20px) );
     }
 
-    .card-sect4 p{
-        font-size: 12px;
+    #container-sect4 .card-sect4 p{
+        font-size: 15px;
 
     }
 
