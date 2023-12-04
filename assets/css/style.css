@@ -225,6 +225,11 @@ header{
     
 }
 
+#header-sect3 h2{
+    color:#9792E4 ;
+    
+}
+
 #header-sect3 span{
     text-transform: uppercase;
 }
@@ -260,7 +265,12 @@ header{
     text-transform: uppercase;
 }
 
+/* SECTION 3 END */
 
+/* SECTION 4 START */
+
+
+/* SECTION 4 END */
 
 
 /* MEDIA QUERIES TABLET */
@@ -339,6 +349,32 @@ header{
         width: 100%;
         font-size: 30px;
     }
+    /* end section2 media queries */
+
+    /* start section3 media queries */
+
+    #container-sect3{
+        width: 100%;
+        padding: 40px;
+    }
+
+    #container-sect3 #header-sect3 h2{
+        font-size: 40px;
+    }
+
+    #container-sect3 #header-sect3 p{
+        font-size: 20px;
+    }
+
+    #container-sect3 .testimonial-card-sect3{
+        font-size: 20px;
+    }
+
+    #container-sect3 img{
+        align-self: center;
+    }
+    
+    /* end section3 media queries */
 }
 
 /* MEDIA QUERIES MOBILE */
@@ -366,5 +402,15 @@ header{
         width: 100%;
     }
     /* end section1 media queries */
+
+    /* section 3 media queries */
+
+    .testimonial-card-sect3{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* end section 3 media queries */
 }
 
