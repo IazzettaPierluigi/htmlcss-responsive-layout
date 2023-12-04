@@ -330,6 +330,95 @@ header{
 }
 /* SECTION 4 END */
 
+/* SECTION 5 START */
+
+#container-sect5{
+    width: 60%;
+    margin: auto;
+    padding-block: 40px;
+   
+
+    display: flex;
+}
+
+#text-left-sect5{
+    display: flex;
+    flex-direction: column;
+   gap: 40px;
+}
+
+#text-left-sect5 h2{
+    font-size: 50px;
+    color: #9792E4;
+}
+
+#text-left-sect5{
+    width: 70%;
+}
+
+#right-sect5{
+    width: 30%;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative
+
+}
+
+#right-sect5 #img-logo-sect5 img{
+    width: 200px;
+    height: 200px;
+    
+    object-fit: cover;
+
+    border-radius: 60%;
+    
+}
+
+#right-sect5 #img-logo-sect5 i{
+    font-size: 100px;
+    color:#9792E4;
+
+
+    position: absolute;
+    top: 0;
+    right: 40px;
+}
+
+#text-right-sect5{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#text-right-sect5 p{
+    font-size: 20px;
+    font-weight: bold;
+    width: 80%;
+    color: #9792E4;
+}
+
+#text-right-sect5 span{
+    background-color: #9792E4;
+
+    color: white;
+
+    text-align: center;
+
+
+    padding: 5px 20px;
+    border-radius: 15px
+}
+
+#text-right-sect5 span i{
+    margin-right: 5px;
+}
+
+/* SECTION 5 END */
 
 /* MEDIA QUERIES TABLET */
 
@@ -502,6 +591,7 @@ header{
 
     .card-sect4{
         width:100% ;
+        min-height: 400px;
     }
 
     .card-sect4 p{
