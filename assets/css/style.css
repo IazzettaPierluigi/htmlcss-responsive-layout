@@ -272,6 +272,7 @@ header{
 #sect-4{
     width: 100%;
     background-color: #9792E4;
+    padding-block: 40px;
 }
 
 #sect-4 h1{
@@ -432,6 +433,26 @@ header{
     }
     
     /* end section3 media queries */
+
+    /* start section4 media queries */
+
+    #container-sect4{
+        width: 100%;
+        gap: 40px;
+        padding: 40px;
+        justify-content: space-around;
+    }
+
+    .card-sect4{
+        width: calc(100% / 2 - (20px) );
+    }
+
+    .card-sect4 p{
+        font-size: 12px;
+
+    }
+
+    /* end section4 media queries */
 }
 
 /* MEDIA QUERIES MOBILE */
@@ -469,5 +490,25 @@ header{
     }
 
     /* end section 3 media queries */
+
+     /* start section4 media queries */
+
+     #container-sect4{
+        width: 100%;
+        gap: 40px;
+        padding: 40px;
+        justify-content: space-around;
+    }
+
+    .card-sect4{
+        width:100% ;
+    }
+
+    .card-sect4 p{
+        font-size: 12px;
+
+    }
+
+    /* end section4 media queries */
 }
 
