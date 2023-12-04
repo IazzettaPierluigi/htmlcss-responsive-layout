@@ -269,7 +269,64 @@ header{
 
 /* SECTION 4 START */
 
+#sect-4{
+    width: 100%;
+    background-color: #9792E4;
+}
 
+#sect-4 h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    color: white;
+}
+
+#container-sect4{
+    width: 60%;
+    margin: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.card-sect4{
+    background-color: white;
+    width: calc((100% / 3) - 20px);
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+
+    border-radius: 20px;
+}
+
+.card-sect4 h2{
+    font-size: 50px;
+    color:#9792E4 ;
+}
+
+.card-sect4 h4{
+    font-size: 20px;
+    color:#9792E4 ;
+}
+
+.card-sect4 p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.587) ;
+}
+
+.card-sect4 span{
+    background-color: #9792E4;
+    padding: 5px 25px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
 /* SECTION 4 END */
 
 
