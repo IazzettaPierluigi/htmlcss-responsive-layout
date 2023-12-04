@@ -470,10 +470,10 @@ header{
 
     #sect-6 #container-sect6 #button-sect5{
         color:#9792E4;
-        font-size: 20px;
+        font-size: 30px;
         background-color: white;
-        padding:8px 25px;
-        border-radius: 20px;
+        padding:8px 40px;
+        border-radius: 30px;
         text-align: center;
         text-transform: capitalize;
      }
@@ -638,6 +638,11 @@ header{
         right: -20px;
     }
     /* end section5 media queries */
+
+    /* start section6 media queries */
+    #sect-6 #container-sect6{
+        width: 100%;
+    }
 }
 
 /* MEDIA QUERIES MOBILE */
@@ -724,5 +729,11 @@ header{
         right: 50px;
     }
     /* end section5 media queries */
+
+    /* start section6 media queries */
+    #sect-6 #container-sect6{
+        padding: 40px;
+    }
+    /* end section6 media queries */
 }
 
